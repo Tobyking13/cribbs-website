@@ -2,7 +2,17 @@ html,
 body {
   width: 100vw;
   height: 100vh;
+  transition: all 1s ease-in-out;
 }
+
+/* li {
+    padding: 10px 25px;
+    margin: 0;
+    font-family: "Junicode", sans-serif;
+    transition: all 0.2s ease-in-out;
+  } */
+/* body {
+} */
 
 /* body {
   margin: 0;
@@ -15,7 +25,6 @@ h5 {
   font-size: 24px;
   color: #fff;
   font-family: "Junicode", sans-serif;
-
 }
 ul {
   list-style-type: none;
@@ -29,7 +38,6 @@ li {
   padding: 10px 25px;
   margin: 0;
   font-family: "Junicode", sans-serif;
-
 }
 a,
 a:hover {
@@ -89,8 +97,8 @@ a:hover {
 #main-container {
   width: 100%;
   height: 100vh;
-  /* background-image: url("../../images/swanpool-beach.jpeg"); */
-  background-image: url(../../images/mojito.jpeg);
+  /* background-image: url("../../images/swanpool-beach.jpeg");  */
+  background-image: url(../../images/mojito.jpeg); 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -125,7 +133,66 @@ a:hover {
 }
 
 #menus {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../../images/jerk.jpeg);
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../images/jerk.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#menus-container {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  top: 10%;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 80%;
+  height: 80%;
+}
+#menus-container h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#menus-container #lunch {
+  font-family: "Junicode", sans-serif;
+  color: white;
+}
+
+#menus-container #dinner {
+  font-family: "Junicode", sans-serif;
+  color: white;
+}
+
+#menus-container img {
+  margin: 10px;
+  width: 350px;
+}
+
+.fullscreen-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+}
+
+.fullscreen-image {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.close-fullscreen {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
 }
