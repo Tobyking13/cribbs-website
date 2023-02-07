@@ -3,6 +3,7 @@ body {
   width: 100vw;
   height: 100vh;
   transition: all 1s ease-in-out;
+  /* overflow: hidden; */
 }
 
 /* li {
@@ -37,6 +38,7 @@ ul {
 li {
   padding: 10px 25px;
   margin: 0;
+  margin-right: 20px;
   font-family: "Junicode", sans-serif;
 }
 a,
@@ -50,6 +52,8 @@ a:hover {
   display: none;
 }
 .navbar {
+    position: fixed;
+    width: 100%;
   background: rgba(0, 0, 0, 0.5);
   padding: 10px 25px;
 }
@@ -98,7 +102,8 @@ a:hover {
   width: 100%;
   height: 100vh;
   /* background-image: url("../../images/swanpool-beach.jpeg");  */
-  background-image: url(../../images/mojito.jpeg); 
+  /* background-image: url(../../images/mojito.jpeg);  */
+  background-image: url(../../images/cocktails.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -130,9 +135,11 @@ a:hover {
   font-family: "Junicode", sans-serif;
   color: white;
   border-radius: 0px;
+  border: 1px solid white;
+  padding: 10px 25px;
 }
 
-#menus {
+#food-menus {
   width: 100vw;
   height: 100vh;
   background-image: url(../../images/jerk.jpeg);
@@ -141,7 +148,7 @@ a:hover {
   background-position: center;
 }
 
-#menus-container {
+#food-container {
   display: flex;
   justify-content: center;
   align-items: top;
@@ -150,22 +157,22 @@ a:hover {
   width: 80%;
   height: 80%;
 }
-#menus-container h2 {
+#food-container h2 {
   margin-top: 20px;
   text-align: center;
 }
 
-#menus-container #lunch {
+#food-container #lunch {
   font-family: "Junicode", sans-serif;
   color: white;
 }
 
-#menus-container #dinner {
+#food-container #dinner {
   font-family: "Junicode", sans-serif;
   color: white;
 }
 
-#menus-container img {
+#food-container img {
   margin: 10px;
   width: 350px;
 }
@@ -196,3 +203,51 @@ a:hover {
   color: white;
   cursor: pointer;
 }
+
+#drink-menus {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../images/mojito.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+
+  #drink-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    height: 80%;
+  }
+
+  #cocktails {
+    font-family: "Junicode", sans-serif;
+    color: white;
+  }
+
+  #reservations-section {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../images/restaurant.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+
+  #reservations-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    height: 80%;
+  }
+
+  #reservations {
+    font-family: "Junicode", sans-serif;
+    color: white;
+  }
