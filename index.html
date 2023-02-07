@@ -1,90 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <title>Document</title>
-</head>
-<body>
-<!-- NAV BAR -->
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="https://bulma.io">
-            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-          </a>
-      
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-      
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item">
-              Home
-            </a>
-      
-            <a class="navbar-item">
-              Documentation
-            </a>
-      
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">
-                More
-              </a>
-      
-              <div class="navbar-dropdown">
-                <a class="navbar-item">
-                  About
-                </a>
-                <a class="navbar-item">
-                  Jobs
-                </a>
-                <a class="navbar-item">
-                  Contact
-                </a>
-                <hr class="navbar-divider">
-                <a class="navbar-item">
-                  Report an issue
-                </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/skeleton.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link href="https://fonts.cdnfonts.com/css/junicode" rel="stylesheet" />
+
+    <title>Cribbs Cornwall</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./images/cribbs-favicon-black.ico"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container u-max-full-width" id="main-container">
+        <nav>
+          <div class="navbar">
+            <div class="row">
+              <div class="two columns">
+                <div class="logo">
+                  <h5>Cribbs</h5>
+                </div>
+                <i class="fa fa-bars" onclick="myFunction()"></i>
+              </div>
+              <div class="ten columns">
+                <div id="mobMenu">
+                  <ul>
+                    <li><a href="#welcome">Home</a></li>
+                    <li><a href="#menus">Menus</a></li>
+                    <li><a href="#">Bookings</a></li>
+                    <li><a href="#">Opening Hours</a></li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-      
-          <div class="navbar-end">
-            <div class="navbar-item">
-              <div class="buttons">
-                <a class="button is-primary">
-                  <strong>Sign up</strong>
-                </a>
-                <a class="button is-light">
-                  Log in
-                </a>
-              </div>
-            </div>
+        </nav>
+
+        <div class="container" id="welcome">
+          <div id="welcome-img">
+            <img src="./images/Cribbs_logo_white.png" alt="" />
+          </div>
+          <div id="welcome-header">
+            <h1>Caribbean Restaurant</h1>
+          </div>
+          <div id="welcome-buttons">
+            <button class="btn">Menu</button>
+            <button class="btn">Reservations</button>
           </div>
         </div>
-      </nav>
+      </div>
+    </main>
 
-      <!-- CENTER DIV -->
+    <section id="menus">
+      <div class="container" id="menus-container">
+        <div id="lunch">
 
-      <section class="section">
-        <div class="container">
-          <div class="columns is-centered">
-            <div class="column is-half">
-              <figure>
-                <img src="./images/rum.jpeg" alt="Melton Hill Lake">
-              </figure>
-            </div>
-          </div>
         </div>
-      </section>
-    
+        <div id="dinner">
+          
+        </div>
+      </div>
+    </section>
+
     <script src="./assets/script.js"></script>
-</body>
+  </body>
 </html>
