@@ -2,8 +2,12 @@ html,
 body {
   width: 100vw;
   height: 100vh;
-  transition: all 1s ease-in-out;
+  /* transition: all 1s ease-in-out; */
   /* overflow: hidden; */
+}
+
+body {
+  overflow: hidden;
 }
 
 /* li {
@@ -137,6 +141,10 @@ a:hover {
   border-radius: 0px;
   border: 1px solid white;
   padding: 10px 25px;
+}
+
+.btn:hover {
+  background: rgba(255,255,255,0.5);
 }
 
 #food-menus {
