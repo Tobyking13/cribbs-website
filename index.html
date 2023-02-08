@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./assets/css/normalize.css" />
     <link rel="stylesheet" href="./assets/css/skeleton.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.cdnfonts.com/css/junicode" rel="stylesheet" />
-
     <title>Cribbs Cornwall</title>
     <link
       rel="icon"
@@ -53,58 +53,62 @@
           <div id="welcome-buttons">
             <a class="btn" href="#food-menus">Menu</a>
             <a class="btn" href="#reservations">Reservations</a>
-
           </div>
         </div>
       </div>
     </main>
 
     <section id="food-menus">
-      <div class="container" id="food-container">
-       
-        <div id="lunch">
+      <div class="container" id="food-container" data-aos="zoom in" data-aos-duration="1000">
+        <div id="lunch"  data-aos="slide-right" data-aos-duration="750">
           <h2>Lunch</h2>
-          <img class="menu-image" src="./images/menus/cribbs-lunch-menu.jpg" alt="">
+          <img
+            class="menu-image"
+            src="./images/menus/cribbs-lunch-menu.jpg"
+            alt=""
+          />
         </div>
-        <div id="dinner">
+        <div id="dinner" data-aos="slide-left" data-aos-duration="750">
           <h2>Dinner</h2>
-          <img class="menu-image" src="./images/menus/cribbs-evening-menu.jpg" alt="">
+          <img
+            class="menu-image"
+            src="./images/menus/cribbs-evening-menu.jpg"
+            alt=""
+          />
         </div>
       </div>
 
       <div class="fullscreen-overlay" id="fullscreen-overlay">
-        <img class="fullscreen-image" id="fullscreen-image"/>
+        <img class="fullscreen-image" id="fullscreen-image" />
         <span class="close-fullscreen" id="close-fullscreen">&times;</span>
       </div>
     </section>
 
     <section id="drink-menus">
-      <div class="container" id="drink-container">
-       
+      <div class="container" id="drink-container" data-aos="fade-left" data-aos-duration="1000">
         <div id="cocktails">
           <h2>Cocktails</h2>
-         
         </div>
-       
       </div>
-
-      
     </section>
 
     <section id="reservations-section">
-      <div class="container" id="reservations-container">
-       
+      <div class="container" id="reservations-container" data-aos="fade-right" data-aos-duration="1000">
         <div id="reservations">
           <h2>Reservations</h2>
-         
         </div>
-       
       </div>
-
-      
     </section>
 
-    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.js"
+      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+      crossorigin="anonymous"
+    ></script>
     <script src="./assets/script.js"></script>
   </body>
 </html>

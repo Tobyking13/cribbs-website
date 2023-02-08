@@ -56,8 +56,8 @@ a:hover {
   display: none;
 }
 .navbar {
-    position: fixed;
-    width: 100%;
+  position: fixed;
+  width: 100%;
   background: rgba(0, 0, 0, 0.5);
   padding: 10px 25px;
 }
@@ -144,7 +144,7 @@ a:hover {
 }
 
 .btn:hover {
-  background: rgba(255,255,255,0.5);
+  background: rgba(255, 255, 255, 0.5);
 }
 
 #food-menus {
@@ -213,49 +213,49 @@ a:hover {
 }
 
 #drink-menus {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../../images/mojito.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-  }
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../images/mojito.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
 
-  #drink-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 10%;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 80%;
-    height: 80%;
-  }
+#drink-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10%;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 80%;
+  height: 80%;
+}
 
-  #cocktails {
-    font-family: "Junicode", sans-serif;
-    color: white;
-  }
+#cocktails {
+  font-family: "Junicode", sans-serif;
+  color: white;
+}
 
-  #reservations-section {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../../images/restaurant.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-  }
+#reservations-section {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../images/restaurant.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
 
-  #reservations-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 10%;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 80%;
-    height: 80%;
-  }
+#reservations-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10%;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 80%;
+  height: 80%;
+}
 
-  #reservations {
-    font-family: "Junicode", sans-serif;
-    color: white;
-  }
+#reservations {
+  font-family: "Junicode", sans-serif;
+  color: white;
+}
